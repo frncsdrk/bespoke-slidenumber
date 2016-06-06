@@ -34,6 +34,33 @@ bespoke.from('#presentation', [
 ]);
 ```
 
+### Custom Divider
+
+When using CommonJS modules:
+
+```js
+bespoke.from('#presentation', [
+  slidenumber('/')
+]);
+```
+
+When using browser globals:
+
+```js
+bespoke.from('#presentation', [
+  bespoke.plugins.slidenumber('/')
+]);
+```
+
+### CSS Classes
+| Class                       | Purpose                |
+|-----------------------------|------------------------|
+| bespoke-slidenumber         | slidenumber container  |
+| bespoke-slidenumber-no      | numbers                |
+| bespoke-sidenumber-current  | current slide number   |
+| bespoke-slidenumber-overall | overall slide number   |
+| bespoke-slidenumber-divider | custom divider, if any |
+
 ## Package managers
 
 ### npm

@@ -62,3 +62,23 @@ section.bespoke-slide {
 .bespoke-active {
   opacity: 1;
 }
+
+.bespoke-slidenumber {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  font-size: 18pt;
+  font-weight: bold;
+}
+.bespoke-slidenumber-current {
+  padding: 0 5px;
+  float: left;
+}
+.bespoke-slidenumber-divider {
+  float: left;
+}
+.bespoke-slidenumber-overall {
+  padding: 0 5px;
+  float: left;
+  /* border-left: 4px solid #000 */
+}
